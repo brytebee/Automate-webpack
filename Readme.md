@@ -7,7 +7,8 @@ In this project, I automate webpack setup using shell commands and node installa
 2. Run `webpack.sh` using your terminal OR `cd ./file_directory` and run `bash webpack.sh`
 3. Enter `Project Name`
 4. Wait for npm installations after which Open `package.json_scripts.txt` and use the scripts you require.
-5. Start coding your app ☕ 💻💻!!
+5. Enter `npm run build` and `npm start`
+6. Start coding your app ☕ 💻💻!!
 
 ## Sources
 Checkout the following resources for compliance to best practices and updates:
