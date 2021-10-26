@@ -1,12 +1,6 @@
 import './style.css';
 
-function component() {
-  const element = document.createElement('div');
-
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
-
-  return element;
-}
-
-document.body.appendChild(component());
+const root = document.querySelector('#root');
+const h1 = document.createElement('h1');
+h1.textContent = 'Hello World';
+root.append(h1);

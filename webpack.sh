@@ -15,9 +15,12 @@ cp ./index.js ./$projectName/src/index.js
 cp ./style.css ./$projectName/src/style.css
 cp ./webpack.config.js ./$projectName/webpack.config.js
 cd $projectName
+echo "Installing Webpack"
 npm install webpack webpack-cli --save-dev
+echo "Installing Style Loader & css-loader"
 npm install --save-dev style-loader css-loader
+echo "Installing Webpack"
 npm install --save-dev html-webpack-plugin
+echo "Installing Webpack-dev-server"
 npm install --save-dev webpack-dev-server
-npm start
 code .
