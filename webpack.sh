@@ -6,7 +6,7 @@ mkdir $projectName && cd $projectName
 npm init -y
 touch webpack.config.js README.md .gitignore
 echo -e "## $projectName" >> README.md
-echo -e "./node_modules/" >> .gitignore
+echo -e "node_modules/" >> .gitignore
 mkdir dist src
 cd src && touch index.js style.css index.html
 cd ../../
